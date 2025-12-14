@@ -1,0 +1,83 @@
+<html>
+<head>
+<title> HTML Forms</title>
+</head>
+
+<body>
+<h1> HTML Form Practice</h1>
+
+<form action="index.php" method="POST" style="color:blue; background-color:lightblue">
+
+
+<label for="nama"> Name </label>
+<input id="nama" required placeholder="Masukkan nama penuh"><tr><br>
+
+
+<label for="pass">Password</label>
+<input type="password" id="pass" required placeholder="Your password"><br>
+
+
+<label for="email">Email</label>
+<input type="email" id="email" required placeholder="Your email"><br>
+
+<label for="umur">Age</label>
+<input type="number" id="umur" min="0" max="100" required placeholder="Your age on 1st Janurry 2025"><br>
+ 
+<label for="Gender"> Gender</label>
+	<input type="radio" value="Male" name="Gender"> Male
+	<input type="radio" value="Female" name="Gender"> Female<br>
+ 
+<label for="birth date">Birth date</label>
+<input type="date" id="birthdate"><br>
+ 
+<label for="time">Time of complaint</label>
+<input type="time" id="time"><br>
+ 
+<label for="timedate">State the time and date</label>
+<input type="datetime-local" id="timedate"><br>
+ 
+<label for="category"> Category</label><br>
+	<input type="radio" id="students" name="category">
+	<label for="Students"> Students</label>
+	<input type="radio" id="Lecturers" name="category">
+	<label for="Lecturers"> Lecturers</label>
+	<input type="radio" id="Parents" name="category">
+	<label for="Parents"> Parents</label>
+	<input type="radio" id="Others" name="category">
+	<label for="Others"> Others</label><br>
+
+<label for="level">Student Year</label>
+	<select id="Level">
+		<option value="Part 1"> Part 1</option>
+		<option value="Part 2"> Part 2</option>
+		<option value="Part 3"> Part 3</option>
+		<option value="Part 4"> Part 4</option>
+		<option value="Part 5"> Part 5</option>
+	</select><br>
+
+<label for="Comment"> Enter Your Comment</label><br>
+<textarea id="Comment" rows="5" cols="40" placeholder="Make it short and simple"></textarea><br>
+
+<label for="doc">Upload Your Proof</label><br>
+<input type="file" id="doc"><br>
+
+<label for="color">Choose Your Mood Color</label>
+<input type="color" id="color"><br>
+
+
+<br><tr>
+<input type="Submit">
+<input type="Reset">
+
+</form>
+
+<h1>VIDEO IN HTML</H1>
+<video width="240" height="140" controls autoplay loop muted>
+	<source src="Reason.mp4">
+</video>
+
+
+
+
+</body>
+</html>
